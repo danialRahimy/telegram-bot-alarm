@@ -1,0 +1,13 @@
+{
+    "robotDetails": {
+        "apiKey": "1246870323:AAGysNlaA7D2mQnXhL9Lwe0Wdp3xS6u-bhY",
+        "userName": "manageAlarmBot"
+    },
+    "commands": [
+        "add: add new alarm in this format => 22:35 \nNotice: after write add go to new line\nExample:\nadd\n22:30\nExample multi:\nadd\n22:30,23:30,05:46",
+        "remove: remove an alarm in this format => 22:35 \nNotice: after write remove go to new line\nExample:\nremove\n22:30\nExample multi:\nremove\n22:30,23:30,05:46",
+        "channel: to set channel that bot send message there \nNotice: after write channel go to new line, don't forget make the robot admin in the channel, without @\nExample:\nchannel\nyour_channel_name",
+        "repeat: to set how many repeat an alarm \nNotice:after write repeat go to new line, if you set 3, in 3 minutes, every minute one time you get message,\nExample:\nrepeat\n5",
+        "list: to get all the alarms\nExample:\nlist"
+    ]
+}
