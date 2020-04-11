@@ -2,8 +2,9 @@
 
 it's easy to use, 
 1. just create a bot [*use this link*](https://core.telegram.org/api)
-2. create a public channel and make the bot admin
-3. use this command to set channel to bot
+1. change the sample api and username in ``data/configs.json``
+1. create a public channel and make the bot admin
+1. use this command to set channel to bot
     * hint: don't use @ before channel name
 ````
 channel
